@@ -118,7 +118,7 @@ export default {
             }
         },
         goToAddContact() {
-        this.$router.push({ name: "contact.add" });
+            this.$router.push({ name: "contact.add" });
         },
     },
     mounted() {
@@ -128,7 +128,7 @@ export default {
 </script>
 <style scoped>
     .page {
-        text-align: center;
+        text-align: left;
         max-width: 500px;
     }
 </style>
